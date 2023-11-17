@@ -1,13 +1,10 @@
-import styles from '../app/styles/Subdivisao.module.css'
-import Subdivisao from '../../components/Subdivisao'
+import Linha from '../../components/Linha'
+import styles from './styles/Linha.module.css'
 
-export default function() {
+export default function () {
   return (
     <div className={styles.container}>
-      <Subdivisao />
-      <Subdivisao />
-      <Subdivisao />
-      <Subdivisao />
-      </div>
+      <Linha />
+    </div>
   )
 }

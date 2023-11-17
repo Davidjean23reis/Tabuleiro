@@ -2,6 +2,11 @@ import styles from '../src/app/styles/Subdivisao.module.css'
 
 export default function Subdivisao(props) {
     return (
-    <div className={styles.subdivisao}></div>
+        <div
+            style={{
+                backgroundColor: props.preta ? "#000" : "#fff"
+            }}
+            className={styles.subdivisao}>
+        </div>
     )
 }
